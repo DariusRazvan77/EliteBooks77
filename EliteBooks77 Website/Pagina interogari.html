@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ro-RO">
+  <!--limba si tara de referinta pentru site -->
+  <head>
+    <title>Anticariat_Pagina principala</title>
+    <meta name="title" content="Anticariat online" />
+    <meta
+      name="description"
+      content="Carti de toate felurile la preturi mici"
+    />
+    <meta name="keywords" content="carti, preturi mici, ieftin" />
+  </head>
+  <style>
+    .h1 {
+      font-family: "Lucida Handwriting", "Brush Script M7", Cursive;
+      color: white;
+      text-align: center;
+      background-image: url("background.jpg");
+    }
+    .body {
+      font-family: Arial;
+      color: rgb(0, 0, 0);
+      background-color: rgb(0, 255, 149);
+    }
+    .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 1;
+      left: 0;
+      background-color: #ff9100;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+    .sidenav a,
+    .dropdown-btn {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #000000;
+      display: block;
+      border: none;
+      background: none;
+      width: 100%;
+      text-align: left;
+      cursor: pointer;
+      outline: none;
+    }
+    .sidenav a:hover,
+    .dropdown-btn:hover {
+      color: #f1f1f1;
+    }
+    .main {
+      margin-left: 200px;
+      font-size: 20px;
+      padding: 0px 10px;
+    }
+    .active {
+      background-color: rgb(255, 0, 0);
+      color: FloralWhite;
+    }
+    .dropdown-container {
+      display: none;
+      background-color: #ff0000;
+      padding-left: 8px;
+    }
+    .fa-caret-down {
+      float: right;
+      padding-right: 8px;
+    }
+    @media screen and (max-height: 450px) {
+      .sidenav {
+        padding-top: 15px;
+      }
+      .sidenav a {
+        font-size: 18px;
+      }
+    }
+    img {
+      display: inline-block;
+      margin: 25px 25px;
+    }
+  </style>
+  <body class="body">
+    <h1 class="h1">ANTICARIATUL TĂU ONLINE</h1>
+    <hr />
+    <div class="sidenav">
+      <a href="Pagina principala.html">Home</a>
+      <a href="Pagina despre.html">Despre</a>
+      <a href="Pagina contact.html">Contact</a>
+      <button class="dropdown-btn">
+        Categorii
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-container">
+        <a href="Pagina carte SF.html">Carti SF</a>
+        <a href="Pagina carte psihologie.html">Carti psihologie</a>
+        <a href="Pagina carte copii.html">Carti copii</a>
+      </div>
+      <a href="Pagina interogari.html">Interogari</a>
+    </div>
+    <div class="main">
+      <h2 align="center">Interogari</h2>
+      <a href="Xml/XQuery Output Interogare 1.xml"><p>Interogare 1</p></a>
+      <a href="Xml/XQuery Output Interogare 2.xml"><p>Interogare 2</p></a>
+      <a href="Xml/XQuery Output Interogare 3.xml"><p>Interogare 3</p></a>
+      <a href="Xml/XQuery Output Interogare 4.xml"><p>Interogare 4</p></a>
+      <a href="Xml/XQuery Output Interogare 5.xml"><p>Interogare 5</p></a>
+      <a href="Xml/XQuery Output Interogare 6.xml"><p>Interogare 6</p></a>
+      <a href="Xml/XQuery Output Interogare 7.xml"><p>Interogare 7</p></a>
+      <a href="Xml/XQuery Output Interogare 8.xml"><p>Interogare 8</p></a>
+      <a href="Xml/XQuery Output Interogare 9.xml"><p>Interogare 9</p></a>
+      <a href="Xml/XQuery Output Interogare 10.xml"><p>Interogare 10</p></a>
+    </div>
+
+    <script>
+      var dropdown = document.getElementsByClassName("dropdown-btn");
+      var i;
+      for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var dropdownContent = this.nextElementSibling;
+          if (dropdownContent.style.display === "block") {
+            dropdownContent.style.display = "none";
+          } else {
+            dropdownContent.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

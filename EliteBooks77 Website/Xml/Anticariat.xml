@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="Anticariat.xsl"?>
+<Anticariat>
+    <Carte>
+        <nume>Sarutul de gheata</nume>
+        <autor>Roxanne Longstreet</autor>
+        <editura>Eis-Pol</editura>
+        <pret>3</pret>
+    </Carte>
+    <Carte>
+        <nume>Vampirii Sudului, vol. 7 Morti cu totii</nume>
+        <autor>Charlaine Harris</autor>
+        <editura>Leda</editura>
+        <pret>5</pret>
+    </Carte>
+    <Carte>
+        <nume>Vampirii Sudului, vol. 8 Mai rau decat moartea</nume>
+        <autor>Charlaine Harris</autor>
+        <editura>Leda</editura>
+        <pret>12</pret>
+    </Carte>
+    <Carte>
+        <nume>A treia femeie</nume>
+        <autor>Mark Burnell</autor>
+        <editura>Rao</editura>
+        <pret>3</pret>
+    </Carte>
+    <Carte>
+        <nume>Auftrag: Nor'Dyren / Comanda: NorDiren</nume>
+        <autor>Sidney Van Scyoc</autor>
+        <editura>Heyne</editura>
+        <pret>2</pret>
+    </Carte>
+    <Carte>
+        <nume>Crucea de gheata</nume>
+        <autor>Lino Aldani</autor>
+        <editura>Fahrenheit</editura>
+        <pret>6</pret>
+    </Carte>
+    <Carte>
+        <nume>Masinaria rock and roll</nume>
+        <autor>Norman Spinrad</autor>
+        <editura>Nemira</editura>
+        <pret>3</pret>
+    </Carte>
+    <Carte>
+        <nume>2001: O odisee spatiala</nume>
+        <autor>Arthur C. Clarke</autor>
+        <editura>Adevarul</editura>
+        <pret>25</pret>
+    </Carte>
+    <Carte>
+        <nume>The Birth of the Blade</nume>
+        <autor>Dennis McCarty</autor>
+        <editura>Del Rey</editura>
+        <pret>3</pret>
+    </Carte>
+    <Carte>
+        <nume>Domenii interzise</nume>
+        <autor>Leonard Oprea</autor>
+        <editura>Albatros</editura>
+        <pret>6</pret>
+    </Carte>
+</Anticariat>
